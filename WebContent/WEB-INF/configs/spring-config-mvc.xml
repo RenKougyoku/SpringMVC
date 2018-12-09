@@ -12,9 +12,7 @@
 		class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
 
     <!-- Scans within the base package of the application for @Component classes to configure as beans -->
-    <context:component-scan base-package="SpringMVC.*"/>
+    <context:component-scan base-package="controller"/>
 
-    <context:property-placeholder location="classpath:application.properties"/>
-	
-	
+<!--     <context:property-placeholder location="classpath:application.properties"/> -->	
 	</beans>
